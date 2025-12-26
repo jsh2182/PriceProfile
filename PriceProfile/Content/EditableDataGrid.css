@@ -1,0 +1,314 @@
+﻿
+
+* {
+    box-sizing: border-box;
+}
+
+/*body {
+    font-family: Arial, Helvetica, sans-serif;
+}*/
+
+
+table, th, td {
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+table {
+    border: 1px solid #d9d9d9;
+    width: auto;
+    overflow-x: scroll;
+}
+
+th {
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+    z-index: 200 !important;
+    background-color: #0d6f9a;
+    color: white;
+    border-radius: 4px 4px 4px 4px;
+    padding: 0px !important;
+}
+
+.resizerParentDiv {
+    margin-top: -5px;
+    margin-left: -1px;
+}
+
+.resizerChildDiv {
+    margin-top: -5px;
+}
+
+td {
+    padding: 5px;
+    text-align: center;
+    min-width: 90px;
+}
+
+tbody {
+    width: 100%;
+    margin: 0px;
+}
+
+tr:nth-child(odd) {
+    background-color: whitesmoke;
+}
+
+    tr:nth-child(odd) .btnDivBackground {
+        background-color: whitesmoke;
+    }
+
+tr:nth-child(even) {
+    background-color: #e6e6e6;
+}
+
+    tr:nth-child(even) .btnDivBackground {
+        background-color: #e6e6e6;
+    }
+
+table.withVerticalBorders td, table.withVerticalBorders th {
+    border: 1px solid #d9d9d9;
+}
+
+table.withHorizontalBorders tr, table.withHorizontalBorders thead {
+    border: 1px solid #d9d9d9;
+}
+
+span.icon-sort-arrows {
+    font-size: 12px;
+    margin: 0px 2px;
+}
+
+span.icon-sort-up, span.icon-sort-down {
+    font-size: 10.5px;
+    margin: 0px 2px;
+}
+
+th.buttonColumn {
+    padding: 5px;
+}
+
+.stickyFooter {
+    position: sticky;
+    bottom: 0;
+    z-index: 100;
+    background-color: lightgray;
+}
+
+.stickyTh {
+    position: sticky;
+    top: 0;
+    z-index: 102;
+}
+
+.stickyTd {
+    min-width: 60px;
+    position: sticky;
+    right: 0;
+    padding: 0;
+}
+
+.testInput {
+    border: none; /*1px solid silver;*/
+    margin: 0px;
+    background-color: transparent !important;
+    width: 100px;
+    border-radius: 3px;
+    margin: 2px;
+}
+
+/*.headerContent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}*/
+
+.WBbutton {
+    background-color: transparent;
+    border-width: 0;
+    font-size: 19px;
+    margin: 1px;
+    padding: 1px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.modal {
+    display: none;
+    position: absolute;
+    z-index: 300;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.2);
+}
+
+.modal-content {
+    position: fixed;
+    background-color: #fefefe;
+    padding: 0;
+    border: 1px solid #888;
+    border-radius: 10px;
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+    .close:hover,
+    .close:focus {
+        color: #000;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+.modal-header {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+}
+
+.modal-body {
+    padding: 16px;
+    min-width: 200px;
+}
+
+:root {
+    --modal-left: 50%;
+    --modal-footer-dir: row-reverse;
+}
+
+.modal-footer {
+    padding: 10px;
+    border-radius: 0px 0px 10px 10px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: var(--modal-footer-dir);
+}
+
+#closeModal {
+    border-width: 2px;
+}
+
+.betweenOption {
+    display: none;
+}
+
+.testInput2 {
+    border: 1px solid silver;
+    width: 100%;
+    border-radius: 3px;
+    margin: 2px;
+}
+
+
+.modal-body::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: var(--modal-left);
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent whitesmoke transparent;
+}
+
+span.icon-x-button {
+    font-size: 18px;
+}
+
+span.icon-filter, span.icon-rubbish {
+    font-size: 10px;
+}
+
+
+input.invalid {
+    border: 2px solid salmon;
+    background-color: #ffe6ea;
+}
+
+.invalid-input-tooltip {
+    direction: ltr;
+    position: absolute;
+    left: 35%;
+    background-color: pink;
+    border: 1px solid hotPink;
+    border-radius: 4px;
+    padding: 5px 20px;
+    z-index: 450;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+img.modal-BG {
+    z-index: -1;
+    position: absolute;
+    top: 10%;
+    left: 33%;
+    opacity: 0.2;
+    height: 110px;
+    width: 80px;
+}
+
+.invalid-input-tooltip2 {
+    background-color: pink;
+    text-align: center;
+    border-radius: 4px;
+    padding: 5px 20px;
+    position: absolute;
+    z-index: 500;
+    left: 35%;
+}
+
+    .invalid-input-tooltip2::after {
+        content: "";
+        position: absolute;
+        bottom: 100%;
+        left: 50%;
+        margin-left: -5px;
+        border-width: 5px;
+        border-style: solid;
+        border-color: transparent transparent pink transparent;
+    }
+
+.headerContent {
+    font-size: 12px !important;
+}
+
+.sortSpan {
+    position: absolute;
+    right: 3px;
+    top:25%;
+}
+
+.filterBtn.WBbutton {
+    position: absolute !important;
+    left: 3px !important;
+    top:25%;
+}
+
+.titleSpan {
+    /*margin-right: 16px !important;
+    margin-left: 16px !important;*/
+    display: inline-block;
+    position: absolute;
+    top: 25%;
+    left: 16px;
+    right: 16px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

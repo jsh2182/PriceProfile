@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30002.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PriceProfile", "PriceProfile\PriceProfile.csproj", "{25E7C190-583A-4662-BD9C-8634EC602EB1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PriceProfile.EFDataService", "PriceProfile.EFDataService\PriceProfile.EFDataService.csproj", "{A01CFC99-2E85-4AD6-842D-7F22C263631A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PriceProfile.Models", "PriceProfile.Models\PriceProfile.Models.csproj", "{996A7A72-23EA-4E44-8DCF-E3EC67201359}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{25E7C190-583A-4662-BD9C-8634EC602EB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25E7C190-583A-4662-BD9C-8634EC602EB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25E7C190-583A-4662-BD9C-8634EC602EB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25E7C190-583A-4662-BD9C-8634EC602EB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A01CFC99-2E85-4AD6-842D-7F22C263631A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A01CFC99-2E85-4AD6-842D-7F22C263631A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A01CFC99-2E85-4AD6-842D-7F22C263631A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A01CFC99-2E85-4AD6-842D-7F22C263631A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{996A7A72-23EA-4E44-8DCF-E3EC67201359}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{996A7A72-23EA-4E44-8DCF-E3EC67201359}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{996A7A72-23EA-4E44-8DCF-E3EC67201359}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{996A7A72-23EA-4E44-8DCF-E3EC67201359}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D98072D8-0E08-4ED3-8C30-4D480DE0D9EE}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://dev.azure.com/JavadSheikh
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = PriceProfile.EFDataService\\PriceProfile.EFDataService.csproj
+		SccProjectName1 = PriceProfile.EFDataService
+		SccLocalPath1 = PriceProfile.EFDataService
+		SccProjectUniqueName2 = PriceProfile.Models\\PriceProfile.Models.csproj
+		SccProjectName2 = PriceProfile.Models
+		SccLocalPath2 = PriceProfile.Models
+		SccProjectUniqueName3 = PriceProfile\\PriceProfile.csproj
+		SccProjectName3 = PriceProfile
+		SccLocalPath3 = PriceProfile
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,548 @@
+@font-face {
+    font-family: 'icomoon';
+    src: url('fonts/icomoon.eot?7puk4g');
+    src: url('fonts/icomoon.eot?7puk4g#iefix') format('embedded-opentype'), url('fonts/icomoon.ttf?7puk4g') format('truetype'), url('fonts/icomoon.woff?7puk4g') format('woff'), url('fonts/icomoon.svg?7puk4g#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+.icon-check:before {
+    content: "\e953";
+    color: #00af80;
+}
+
+.icon-check:hover:before {
+    content: "\e952";
+    color: #0cf4b6;
+}
+
+.icon-filter .path1:before {
+    content: "\e95a";
+    color: rgb(68, 138, 255);
+}
+
+.icon-filter .path2:before {
+    content: "\e95b";
+    margin-left: -1em;
+    color: rgb(130, 177, 255);
+}
+
+.icon-filter .path3:before {
+    content: "\e95c";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+
+.icon-filter .path4:before {
+    content: "\e95d";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+
+.icon-filter .path5:before {
+    content: "\e95e";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+}
+
+.icon-filter .path6:before {
+    content: "\e95f";
+    margin-left: -1em;
+    color: rgb(41, 121, 255);
+}
+
+
+.icon-rubbish:before {
+    content: "\e961";
+    color: #5f7d95;
+}
+
+.icon-x-button:before {
+    content: "\e963";
+    color: #c12020;
+}
+
+.icon-x-button:hover:before {
+    content: "\e962";
+    color: #fe1919;
+}
+
+.icon-close:before {
+    content: "\e951";
+    color: #9b9797;
+}
+
+.icon-close:hover:before {
+    content: "\e950";
+    color: #eb3838;
+}
+
+.icon-add:before {
+    content: "\e900";
+    color: #82d6ef;
+}
+
+.icon-check-mark:before {
+    content: "\e902";
+    color: #29c389;
+}
+
+.icon-check-mark:hover:before {
+    content: "\e901";
+    color: #1de398;
+}
+
+.icon-definitions:before {
+    content: "\e903";
+    color: #82d6ef;
+}
+
+.icon-filter2 .path1:before {
+    content: "\e904";
+    color: rgb(183, 180, 185);
+}
+
+.icon-filter2 .path2:before {
+    content: "\e905";
+    margin-left: -1em;
+    color: rgb(132, 129, 136);
+}
+
+.icon-filter2 .path3:before {
+    content: "\e906";
+    margin-left: -1em;
+    color: rgb(119, 117, 120);
+}
+
+.icon-filter2 .path4:before {
+    content: "\e907";
+    margin-left: -1em;
+    color: rgb(119, 117, 120);
+}
+
+.icon-filter2:hover .path1:before {
+    content: "\e908";
+    color: rgb(164, 133, 190);
+}
+
+.icon-filter2:hover .path2:before {
+    content: "\e909";
+    margin-left: -1em;
+    color: rgb(128, 103, 153);
+}
+
+.icon-filter2:hover .path3:before {
+    content: "\e90a";
+    margin-left: -1em;
+    color: rgb(77, 0, 126);
+}
+
+.icon-filter2:hover .path4:before {
+    content: "\e90b";
+    margin-left: -1em;
+    color: rgb(77, 0, 126);
+}
+
+.icon-home1:before {
+    content: "\e90c";
+    color: #61a6db;
+}
+
+.icon-home5:before {
+    content: "\e90d";
+    color: #82d6ef;
+}
+
+.icon-operation3:before {
+    content: "\e90e";
+    color: #82d6ef;
+}
+
+.icon-operation5:before {
+    content: "\e90f";
+    color: #82d6ef;
+}
+
+.icon-operation6:before {
+    content: "\e910";
+    color: #82d6ef;
+}
+
+.icon-pencil .path1:before {
+    content: "\e920";
+    color: rgb(193, 164, 82);
+}
+
+.icon-pencil .path2:before {
+    content: "\e921";
+    margin-left: -1em;
+    color: rgb(215, 190, 86);
+}
+
+.icon-pencil .path3:before {
+    content: "\e922";
+    margin-left: -1em;
+    color: rgb(165, 60, 60);
+}
+
+.icon-pencil .path4:before {
+    content: "\e923";
+    margin-left: -1em;
+    color: rgb(215, 190, 86);
+}
+
+.icon-pencil .path5:before {
+    content: "\e924";
+    margin-left: -1em;
+    color: rgb(215, 190, 86);
+}
+
+.icon-pencil .path6:before {
+    content: "\e925";
+    margin-left: -1em;
+    color: rgb(215, 190, 86);
+}
+
+.icon-pencil .path7:before {
+    content: "\e926";
+    margin-left: -1em;
+    color: rgb(215, 190, 86);
+}
+
+.icon-pencil .path8:before {
+    content: "\e927";
+    margin-left: -1em;
+    color: rgb(215, 190, 86);
+}
+
+.icon-pencil .path9:before {
+    content: "\e928";
+    margin-left: -1em;
+    color: rgb(215, 190, 86);
+}
+
+.icon-pencil .path10:before {
+    content: "\e929";
+    margin-left: -1em;
+    color: rgb(250, 193, 118);
+}
+
+.icon-pencil .path11:before {
+    content: "\e92a";
+    margin-left: -1em;
+    color: rgb(193, 164, 82);
+}
+
+.icon-pencil .path12:before {
+    content: "\e92b";
+    margin-left: -1em;
+    color: rgb(84, 93, 94);
+}
+
+.icon-pencil .path13:before {
+    content: "\e92c";
+    margin-left: -1em;
+    color: rgb(227, 193, 155);
+}
+
+.icon-pencil .path14:before {
+    content: "\e92d";
+    margin-left: -1em;
+    color: rgb(193, 164, 82);
+}
+
+.icon-pencil .path15:before {
+    content: "\e92e";
+    margin-left: -1em;
+    color: rgb(193, 164, 82);
+}
+
+.icon-pencil:hover .path1:before {
+    content: "\e911";
+    color: rgb(228, 192, 92);
+}
+
+.icon-pencil:hover .path2:before {
+    content: "\e912";
+    margin-left: -1em;
+    color: rgb(243, 213, 91);
+}
+
+.icon-pencil:hover .path3:before {
+    content: "\e913";
+    margin-left: -1em;
+    color: rgb(233, 75, 76);
+}
+
+.icon-pencil:hover .path4:before {
+    content: "\e914";
+    margin-left: -1em;
+    color: rgb(243, 213, 91);
+}
+
+.icon-pencil:hover .path5:before {
+    content: "\e915";
+    margin-left: -1em;
+    color: rgb(243, 213, 91);
+}
+
+.icon-pencil:hover .path6:before {
+    content: "\e916";
+    margin-left: -1em;
+    color: rgb(243, 213, 91);
+}
+
+.icon-pencil:hover .path7:before {
+    content: "\e917";
+    margin-left: -1em;
+    color: rgb(243, 213, 91);
+}
+
+.icon-pencil:hover .path8:before {
+    content: "\e918";
+    margin-left: -1em;
+    color: rgb(243, 213, 91);
+}
+
+.icon-pencil:hover .path9:before {
+    content: "\e919";
+    margin-left: -1em;
+    color: rgb(243, 213, 91);
+}
+
+.icon-pencil:hover .path10:before {
+    content: "\e91a";
+    margin-left: -1em;
+    color: rgb(250, 193, 118);
+}
+
+.icon-pencil:hover .path11:before {
+    content: "\e91b";
+    margin-left: -1em;
+    color: rgb(228, 192, 92);
+}
+
+.icon-pencil:hover .path12:before {
+    content: "\e91c";
+    margin-left: -1em;
+    color: rgb(127, 140, 141);
+}
+
+.icon-pencil:hover .path13:before {
+    content: "\e91d";
+    margin-left: -1em;
+    color: rgb(253, 215, 173);
+}
+
+.icon-pencil:hover .path14:before {
+    content: "\e91e";
+    margin-left: -1em;
+    color: rgb(228, 192, 92);
+}
+
+.icon-pencil:hover .path15:before {
+    content: "\e91f";
+    margin-left: -1em;
+    color: rgb(228, 192, 92);
+}
+
+.icon-personnel:before {
+    content: "\e92f";
+    color: #82d6ef;
+}
+
+.icon-plus:before {
+    content: "\e931";
+    color: #20a774;
+}
+
+.icon-plus:hover:before {
+    content: "\e930";
+    color: #30db9a;
+}
+
+.icon-plus-black-symbol:before {
+    content: "\e933";
+    color: #20a774;
+}
+
+.icon-plus-black-symbol:hover:before {
+    content: "\e932";
+    color: #0de594;
+}
+
+.icon-remove-symbol:before {
+    content: "\e935";
+    color: #b92323;
+}
+
+.icon-remove-symbol:hover:before {
+    content: "\e934";
+    color: #ed2222;
+}
+
+.icon-report:before {
+    content: "\e936";
+    color: #82d6ef;
+}
+
+.icon-search:before {
+    content: "\e937";
+    color: #82d6ef;
+}
+
+.icon-settings3:before {
+    content: "\e938";
+    color: #82d6ef;
+}
+
+.icon-shipping-and-delivery .path1:before {
+    content: "\e939";
+    color: rgb(140, 186, 250);
+}
+
+.icon-shipping-and-delivery .path2:before {
+    content: "\e93a";
+    margin-left: -1em;
+    color: rgb(49, 101, 163);
+}
+
+.icon-shipping-and-delivery .path3:before {
+    content: "\e93b";
+    margin-left: -1em;
+    color: rgb(87, 91, 122);
+}
+
+.icon-shipping-and-delivery .path4:before {
+    content: "\e93c";
+    margin-left: -1em;
+    color: rgb(37, 45, 76);
+}
+
+.icon-shipping-and-delivery .path5:before {
+    content: "\e93d";
+    margin-left: -1em;
+    color: rgb(233, 233, 234);
+}
+
+.icon-shipping-and-delivery .path6:before {
+    content: "\e93e";
+    margin-left: -1em;
+    color: rgb(233, 233, 234);
+}
+
+.icon-shipping-and-delivery .path7:before {
+    content: "\e93f";
+    margin-left: -1em;
+    color: rgb(197, 196, 204);
+}
+
+.icon-shipping-and-delivery .path8:before {
+    content: "\e940";
+    margin-left: -1em;
+    color: rgb(249, 170, 75);
+}
+
+.icon-shipping-and-delivery .path9:before {
+    content: "\e941";
+    margin-left: -1em;
+    color: rgb(193, 118, 43);
+}
+
+.icon-shipping-and-delivery .path10:before {
+    content: "\e942";
+    margin-left: -1em;
+    color: rgb(255, 235, 150);
+}
+
+.icon-shipping-and-delivery .path11:before {
+    content: "\e943";
+    margin-left: -1em;
+    color: rgb(249, 170, 75);
+}
+
+.icon-shipping-and-delivery .path12:before {
+    content: "\e944";
+    margin-left: -1em;
+    color: rgb(193, 118, 43);
+}
+
+.icon-shipping-and-delivery .path13:before {
+    content: "\e945";
+    margin-left: -1em;
+    color: rgb(255, 235, 150);
+}
+
+.icon-shipping-and-delivery .path14:before {
+    content: "\e946";
+    margin-left: -1em;
+    color: rgb(197, 196, 204);
+}
+
+.icon-shipping-and-delivery .path15:before {
+    content: "\e947";
+    margin-left: -1em;
+    color: rgb(193, 118, 43);
+}
+
+.icon-shipping-and-delivery .path16:before {
+    content: "\e948";
+    margin-left: -1em;
+    color: rgb(193, 118, 43);
+}
+
+.icon-shipping-and-delivery .path17:before {
+    content: "\e949";
+    margin-left: -1em;
+    color: rgb(193, 118, 43);
+}
+
+.icon-shipping-and-delivery .path18:before {
+    content: "\e94a";
+    margin-left: -1em;
+    color: rgb(193, 118, 43);
+}
+
+.icon-shipping-and-delivery .path19:before {
+    content: "\e94b";
+    margin-left: -1em;
+    color: rgb(49, 101, 163);
+}
+
+.icon-shipping-and-delivery .path20:before {
+    content: "\e94c";
+    margin-left: -1em;
+    color: rgb(49, 101, 163);
+}
+
+.icon-sort-arrows:before {
+    content: "\e94d";
+    color: #b1afaf;
+}
+
+.icon-sort-down:before {
+    content: "\e94e";
+    color: #b1afaf;
+}
+
+.icon-sort-up:before {
+    content: "\e94f";
+    color: #b1afaf;
+}
+
